@@ -84,7 +84,7 @@ The **Delivery Time Predictor** is an AI-powered web application that estimates 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/delivery-time-predictor.git
+   git clone https://github.com/Jeyasrikodeeswaran/delivery-time-predictor.git
    cd delivery-time-predictor
    ```
 
@@ -242,6 +242,6 @@ If you have any questions or need help:
 ---
 
 <div align="center">
-  <p>Made with ❤️ by the Delivery Predictor Team</p>
+  <p>Made with ❤️ by Jeyasri kodeeswaran </p>
   <p>⭐ Star this repo if you found it helpful!</p>
 </div>
