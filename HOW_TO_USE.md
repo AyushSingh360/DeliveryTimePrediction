@@ -51,7 +51,7 @@ Before you begin, ensure you have the following installed on your system:
 #### Option A: Clone with Git (Recommended)
 ```bash
 # Open terminal/command prompt
-git clone https://github.com/yourusername/delivery-time-predictor.git
+git clone https://github.com/Jeyasrikodeeswaran/delivery-time-predictor.git
 cd delivery-time-predictor
 ```
 
@@ -483,7 +483,7 @@ node --version  # Should be 16.0+
 - 📖 [Complete README](README.md)
 - 📊 [Project Report](PROJECT_REPORT.md)
 - 🎯 [Presentation Slides](PRESENTATION.md)
-- 🐛 [Issue Tracker](https://github.com/yourusername/delivery-time-predictor/issues)
+- 🐛 [Issue Tracker](https://github.com/Jeyasrikodeeswaran/delivery-time-predictor/issues)
 
 ### Contact Information:
 - 📧 **Email**: support@deliverypredictor.com
