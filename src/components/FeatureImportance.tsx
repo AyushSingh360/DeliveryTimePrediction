@@ -4,10 +4,11 @@ import { BarChart3 } from 'lucide-react';
 const FeatureImportance: React.FC = () => {
   const features = [
     { name: 'Distance', importance: 0.35, color: 'bg-primary-500' },
+    { name: 'Prep Time', importance: 0.20, color: 'bg-blue-400' },
     { name: 'Traffic', importance: 0.25, color: 'bg-red-400' },
-    { name: 'Weather', importance: 0.18, color: 'bg-yellow-400' },
+    { name: 'Weather', importance: 0.15, color: 'bg-yellow-400' },
     { name: 'Vehicle Type', importance: 0.12, color: 'bg-green-400' },
-    { name: 'Experience', importance: 0.10, color: 'bg-purple-400' }
+    { name: 'Experience', importance: 0.08, color: 'bg-purple-400' }
   ];
 
   return (

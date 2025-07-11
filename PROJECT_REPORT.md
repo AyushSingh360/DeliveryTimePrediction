@@ -78,13 +78,13 @@ In the rapidly growing e-commerce and food delivery industry, accurate delivery 
 | Feature | Type | Description | Importance |
 |---------|------|-------------|------------|
 | Distance | Numerical | Distance in kilometers | 35% |
+| Preparation Time | Numerical | Time to prepare order (minutes) | 20% |
 | Traffic Condition | Categorical | Light/Moderate/Heavy | 25% |
-| Weather Condition | Categorical | Clear/Cloudy/Rainy/Stormy | 18% |
+| Weather Condition | Categorical | Clear/Cloudy/Rainy/Stormy | 15% |
 | Vehicle Type | Categorical | Bike/Car/Scooter | 12% |
-| Delivery Experience | Numerical | Years of experience | 10% |
+| Delivery Experience | Numerical | Years of experience | 8% |
 | Time of Day | Categorical | Morning/Afternoon/Evening/Night | - |
 | Day of Week | Categorical | Monday-Sunday | - |
-| Order Value | Numerical | Dollar amount | - |
 
 ### 3.2 Model Development
 

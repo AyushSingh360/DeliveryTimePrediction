@@ -80,10 +80,11 @@ Linear Regression → Prediction Model
 **Feature Importance:**
 ```
 Distance (35%)           ████████████████████
+Preparation Time (20%)   ████████████
 Traffic (25%)            ██████████████
-Weather (18%)            ██████████
+Weather (15%)            ████████
 Vehicle Type (12%)       ██████
-Experience (10%)         █████
+Experience (8%)          ████
 ```
 
 ---
@@ -114,7 +115,7 @@ Experience (10%)         █████
 ### 📱 Application Walkthrough
 
 **Step 1: Input Parameters**
-- Distance, vehicle type, weather
+- Distance, preparation time, weather
 - Traffic conditions, time of day
 - Delivery person experience
 

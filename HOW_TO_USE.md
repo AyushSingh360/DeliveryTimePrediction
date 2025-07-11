@@ -141,10 +141,11 @@ You should see:
 - **Example**: `7.5` for 7.5 kilometers
 
 **💰 Order Value ($)**
-- **What it is**: Total value of the order being delivered
-- **How to fill**: Enter dollar amount (e.g., 25.99)
-- **Range**: $1 - $1000+
-- **Example**: `45.50` for $45.50
+**⏱️ Preparation Time (min)**
+- **What it is**: Time needed to prepare the order before delivery
+- **How to fill**: Enter time in minutes (e.g., 15)
+- **Range**: 1 - 120 minutes
+- **Example**: `20` for 20 minutes preparation time
 
 **🚗 Vehicle Type**
 - **Options**: 

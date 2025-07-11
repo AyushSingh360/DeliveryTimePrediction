@@ -10,7 +10,7 @@ interface PredictionFormProps {
 const PredictionForm: React.FC<PredictionFormProps> = ({ onPredict, isLoading }) => {
   const [formData, setFormData] = useState<PredictionInput>({
     distance: '',
-    orderValue: '',
+    preparationTime: '',
     vehicleType: 'bike',
     weatherCondition: 'clear',
     trafficCondition: 'light',
@@ -58,19 +58,19 @@ const PredictionForm: React.FC<PredictionFormProps> = ({ onPredict, isLoading })
             />
           </div>
 
-          {/* Order Value */}
+          {/* Preparation Time */}
           <div>
             <label className="flex items-center space-x-2 text-sm font-medium text-gray-700 mb-2">
-              <Package className="w-4 h-4" />
-              <span>Order Value ($)</span>
+              <Clock className="w-4 h-4" />
+              <span>Preparation Time (min)</span>
             </label>
             <input
               type="number"
-              step="0.01"
+              step="1"
               className="input-field"
-              placeholder="Enter order value"
-              value={formData.orderValue}
-              onChange={(e) => handleInputChange('orderValue', e.target.value)}
+              placeholder="Enter preparation time"
+              value={formData.preparationTime}
+              onChange={(e) => handleInputChange('preparationTime', e.target.value)}
               required
             />
           </div>

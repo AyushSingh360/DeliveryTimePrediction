@@ -37,7 +37,7 @@ The **Delivery Time Predictor** is an AI-powered web application that estimates 
 ## ✨ Features
 
 ### 🔮 Prediction Engine
-- **Multi-factor Analysis**: Distance, weather, traffic, vehicle type, time of day
+- **Multi-factor Analysis**: Distance, preparation time, weather, traffic, vehicle type, time of day
 - **Experience-based Adjustments**: Accounts for delivery person expertise
 - **Confidence Intervals**: Provides prediction reliability scores
 - **Real-time Processing**: Instant results with smooth animations
@@ -116,7 +116,7 @@ npm run preview
 
 1. **Enter Delivery Parameters**
    - Distance to destination (km)
-   - Order value ($)
+   - Preparation time (minutes)
    - Vehicle type (bike/car/scooter)
    - Weather conditions
    - Traffic conditions

@@ -1,6 +1,6 @@
 export interface PredictionInput {
   distance: string;
-  orderValue: string;
+  preparationTime: string;
   vehicleType: 'bike' | 'car' | 'scooter';
   weatherCondition: 'clear' | 'rainy' | 'cloudy' | 'stormy';
   trafficCondition: 'light' | 'moderate' | 'heavy';

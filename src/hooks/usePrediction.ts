@@ -14,6 +14,9 @@ export const usePrediction = () => {
     // Mock prediction logic based on the input parameters
     const baseTime = parseFloat(input.distance) * 2.5; // Base time from distance
     
+    // Add preparation time to the base calculation
+    const prepTime = parseFloat(input.preparationTime) || 0;
+    
     // Adjust for vehicle type
     const vehicleMultiplier = {
       bike: 1.0,
@@ -47,7 +50,8 @@ export const usePrediction = () => {
     // Adjust for experience (more experience = faster delivery)
     const experienceMultiplier = Math.max(0.8, 1 - (parseFloat(input.deliveryPersonExperience) * 0.02));
     
-    const estimatedTime = baseTime * vehicleMultiplier * weatherMultiplier * trafficMultiplier * timeMultiplier * experienceMultiplier;
+    const deliveryTime = baseTime * vehicleMultiplier * weatherMultiplier * trafficMultiplier * timeMultiplier * experienceMultiplier;
+    const estimatedTime = deliveryTime + prepTime; // Add preparation time to delivery time
     
     // Calculate confidence based on various factors
     const confidence = Math.min(0.95, 0.7 + (parseFloat(input.deliveryPersonExperience) * 0.02) + (input.weatherCondition === 'clear' ? 0.1 : 0));
